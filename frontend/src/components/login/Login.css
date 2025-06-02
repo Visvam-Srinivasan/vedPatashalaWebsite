@@ -1,0 +1,114 @@
+
+.wrapper {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('..\..\assets\login\background.jpg') no-repeat center center fixed;
+      background-size: cover;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.left-side {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+}
+
+.left-side img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.shloka {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.right-side {
+    flex: 1;
+    padding: 40px 30px;
+    background-color: #f9f9f9;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.login-box label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.login-box input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+    background: linear-gradient(to right, #f5af19, #f12711);
+}
+
+.login-box .links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-box .links a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.login-box .links a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
