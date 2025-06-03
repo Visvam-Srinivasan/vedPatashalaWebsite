@@ -28,13 +28,16 @@
     padding: 30px;
     text-align: center;
     background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 .left-side img {
     width: 250px;
     height: auto;
     border-radius: 15px;
     margin-bottom: 20px;
+
 }
 
 .shloka {
@@ -79,7 +82,7 @@
 .login-box button {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(to right, #f12711, #f5af19);
+    background-image: linear-gradient(to right, rgb(81, 10, 10), rgb(119, 27, 27), rgb(81, 10, 10)); 
     border: none;
     color: white;
     font-size: 16px;
@@ -89,7 +92,7 @@
 }
 
 .login-box button:hover {
-    background: linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right,#f12711, #f5af19, #f12711);
 }
 
 .login-box .links {
