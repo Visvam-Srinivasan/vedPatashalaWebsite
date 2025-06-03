@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.css';
+import ganeshaPic from "../../assets/login/ganeshaPic.png";
 
 function Login2() {
 
@@ -7,7 +8,7 @@ function Login2() {
         <div class="wrapper">
         <div class="container">
             <div class="left-side">
-            <img src="..\..\assets\login\ganeshaPic.png" alt="Lord Ganesha" />
+            <img src={ganeshaPic} alt="Lord Ganesha" />
             <div class="shloka">
                 śuklāṁ baradharaṁ viṣṇuṁ śaśi varṇaṁ caturbhujam <br />
                 prasanna vadanam dhyāyet sarva vighnopa śāntaye ||<br /><br />
