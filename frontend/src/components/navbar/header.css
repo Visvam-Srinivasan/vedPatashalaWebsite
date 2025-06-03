@@ -1,9 +1,27 @@
-.navbar {
-    padding: 8px;
-    background-image: linear-gradient(to right, rgb(104, 13, 13), rgb(197, 58, 58), rgb(104, 13, 13)); 
+.header {
+    display: flex;
+    align-items:center;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(81, 10, 10), rgb(119, 27, 27)); 
     transition: color 0.3s ease;
-    color: rgb(255, 255, 3);
 }
-.navbar:hover{
+.title1{
+    padding-left: 3px;
+    font-family: playfairdisplay;
+    color: rgb(255, 238, 3);
+    font-size:large;
+}
+.title2{
+    padding-left: 3px;
+    font-family: playfairdisplay;
+    color: rgb(255, 238, 3);
+    font-size:xx-large;
+}
+.header:hover{
     color: rgb(255, 255, 255);
+}
+.logo{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
 }
