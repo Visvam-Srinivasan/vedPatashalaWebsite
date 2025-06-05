@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
-import { Menu, Home, User, Settings } from 'lucide-react';
+import { Menu, Home, User, Settings, UserPen} from 'lucide-react';
 import { Link } from 'react-router-dom';
 import '../Navbar.css';
+import '../../../global.css';
 
 const menuItems = [
   { label: 'Home', icon: <Home size={20} />, path: '/dashboard' },
   { label: 'Profile', icon: <User size={20} />, path: '/profile' },
-  { label: 'Settings', icon: <Settings size={20} />, path: '/settings' }
+  { label: 'Settings', icon: <Settings size={20} />, path: '/settings' },
+  { label: 'Manage Users', icon: <UserPen size={20} />, path: '/manageUsers' }
 ];
 
 export default function AdminNavbar() {
-  const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(false);
 
   return (
     <div className={`sidebar ${expanded ? 'expanded' : 'collapsed'}`}>
