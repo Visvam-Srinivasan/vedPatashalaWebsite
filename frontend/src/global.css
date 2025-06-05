@@ -6,3 +6,16 @@
 .playFairFont {
      font-family: playfairdisplay;
 }
+
+.themeGradient {
+        background-image: linear-gradient(to right, rgb(81, 10, 10), rgb(119, 27, 27)); 
+}
+
+.themeColorDark1 {
+        background-color: rgb(81, 10, 10);
+}
+
+.themeColorLight1 {
+        background-color: rgb(119, 27, 27);
+}
+
