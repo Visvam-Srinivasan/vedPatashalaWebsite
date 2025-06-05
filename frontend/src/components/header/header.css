@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items:center;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(81, 10, 10), rgb(119, 27, 27)); 
+    transition: color 0.3s ease;
+}
+.title1{
+    padding-left: 3px;
+    font-family: playfairdisplay;
+    color: rgb(255, 238, 3);
+    font-size:large;
+}
+.title2{
+    padding-left: 3px;
+    font-family: playfairdisplay;
+    color: rgb(255, 238, 3);
+    font-size:xx-large;
+}
+.header:hover{
+    color: rgb(255, 255, 255);
+}
+.logo{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
