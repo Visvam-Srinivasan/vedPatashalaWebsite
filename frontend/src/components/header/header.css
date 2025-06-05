@@ -1,6 +1,7 @@
 .header {
     display: flex;
-    align-items:center;
+    align-items: center;
+    justify-items: center;
     padding: 10px;
     background-image: linear-gradient(to right, rgb(81, 10, 10), rgb(119, 27, 27)); 
     transition: color 0.3s ease;

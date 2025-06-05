@@ -5,19 +5,19 @@ import ganeshaPic from "../../assets/login/ganeshaPic.png";
 function Login2() {
 
     return (
-        <div class="wrapper">
-        <div class="container">
-            <div class="left-side">
+        <div className="wrapper">
+        <div className="container">
+            <div className="left-side">
             <img src={ganeshaPic} alt="Lord Ganesha" />
-            <div class="shloka">
+            <div className="shloka">
                 śuklāṁ baradharaṁ viṣṇuṁ śaśi varṇaṁ caturbhujam <br />
                 prasanna vadanam dhyāyet sarva vighnopa śāntaye ||<br /><br />
                 yasya dviradha vaktrādyāḥ pāriṣadhya paraśatam <br />
                 vighnam nighnanti satataṁ viśvaksena tamāśraye ||
             </div>
             </div>
-            <div class="right-side">
-            <div class="login-box">
+            <div className="right-side">
+            <div className="login-box">
                 <h2>Login</h2>
                 <form>
                 <label>Email</label>
@@ -32,7 +32,7 @@ function Login2() {
                 <br></br>
                 <button type="submit">SIGN IN</button>
 
-                <div class="links">
+                <div className="links">
                     <p><a href="#">Forgot Username / Password?</a></p>
                     <p>Don't have an account? <a href="#">Sign up</a></p>
                 </div>

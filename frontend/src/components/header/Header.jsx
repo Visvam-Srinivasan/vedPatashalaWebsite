@@ -1,12 +1,11 @@
 import React from 'react';
-import '../../tailwind.css';
 import './header.css';
 import logo from "../../assets/navbar/logo.png";
 
 function Header() {
     return (
         <>
-        <nav className="header">
+        <div className="header">
             <div>
                 <img
                     src= {logo}
@@ -22,7 +21,7 @@ function Header() {
                     VED PATASHALA
                 </h1>
             </div>
-        </nav>
+        </div>
         </>
     )
 

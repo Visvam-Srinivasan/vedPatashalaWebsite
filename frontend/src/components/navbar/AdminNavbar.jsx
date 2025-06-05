@@ -1,9 +1,8 @@
 import React from 'react';
-import '../../tailwind.css';
 import './header.css';
 import logo from "../../assets/navbar/logo.png";
 
-function Header() {
+function AdminNavbar() {
     return (
         <>
         <nav className="header">
@@ -27,4 +26,4 @@ function Header() {
     )
 
 }
-export default Header;
+export default AdminNavbar;
