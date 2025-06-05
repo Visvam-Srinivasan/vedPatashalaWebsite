@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, Home, User, Settings } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import '../Navbar.css';
 
 const menuItems = [
   { label: 'Home', icon: <Home size={20} />, path: '/dashboard' },
