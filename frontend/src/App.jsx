@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Login2 from "./components/login/Login2";
+import './global.css';
+import Login from "./components/login/Login";
 import Header from "./components/header/Header";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         <>
             <Header></Header>
             <Routes>
-                <Route path="/" element={<Login2 />} />
+                <Route path="/" element={<Login />} />
             </Routes>
         </>
     )
