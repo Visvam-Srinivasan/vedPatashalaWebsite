@@ -1,28 +1,100 @@
 .header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-items: center;
+    padding: 0 20px;
+    height: 100px;
+    background-color: rgb(81, 10, 10);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+}
+
+.logo {
+    height: 75px;
+    margin-right: 8px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title1, .title2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.1;
+}
+.title2 {
+    font-size: 30px;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.profile-icon {
+    background-color: rgb(255, 255, 0);
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    transition: box-shadow 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+
+.profile-icon:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: rgb(207, 207, 11);
+}
+
+.profile-pic {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dropdown {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     padding: 10px;
-    background-image: linear-gradient(to right, rgb(81, 10, 10), rgb(119, 27, 27)); 
-    transition: color 0.3s ease;
+    z-index: 100;
+    min-width: 150px;
 }
-.title1{
-    padding-left: 3px;
-    font-family: playfairdisplay;
-    color: rgb(255, 238, 3);
-    font-size:large;
+
+
+.dropdown div:hover {
+  background-color: #f5f5f5;
 }
-.title2{
-    padding-left: 3px;
-    font-family: playfairdisplay;
-    color: rgb(255, 238, 3);
-    font-size:xx-large;
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
 }
-.header:hover{
-    color: rgb(255, 255, 255);
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
 }
-.logo{
-    width: 100px;
-    height: auto;
-    margin-right: 10px;
+
+.dropdown-icon {
+  margin-right: 8px;
 }
