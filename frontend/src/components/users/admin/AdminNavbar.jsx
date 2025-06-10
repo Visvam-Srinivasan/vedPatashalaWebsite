@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { Menu, Home, User, Settings, UserPen} from 'lucide-react';
+import { Menu, Home, User, Settings, UserPen, ShieldUser, BookOpen, LogOut} from 'lucide-react';
 import { Link } from 'react-router-dom';
 import '../Navbar.css';
 import '../../../global.css';
 
 const menuItems = [
-  { label: 'Home', icon: <Home size={20} />, path: '/dashboard' },
-  { label: 'Profile', icon: <User size={20} />, path: '/profile' },
-  { label: 'Settings', icon: <Settings size={20} />, path: '/settings' },
-  { label: 'Manage Users', icon: <UserPen size={20} />, path: '/manageUsers' }
+  { label: 'Home', icon: <Home size={20} />, path: '/admin/dashboard' },
+  { label: 'Manage Users', icon: <UserPen size={20} />, path: '/admin/manageUsers' },
+  { label: 'Manage Roles', icon: <ShieldUser size={20} />, path: '/admin/manageRoles' },
+  { label: 'Manage Courses', icon: <BookOpen size={20} />, path: '/admin/manageCourses' },
 ];
 
 export default function AdminNavbar() {
