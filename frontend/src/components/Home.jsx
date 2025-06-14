@@ -13,7 +13,7 @@ function Home() {
             <h1>HOME PAGE</h1>
             <li>
                 <ul><Link to='/login'>LOGIN</Link></ul>
-                <ul><Link to='/admin'>ADMIN</Link></ul>
+                <ul><Link to='/admin/dashboard'>ADMIN</Link></ul>
                 <ul><Link to='/guru'>GURU</Link></ul>
                 <ul><Link to='/student'>STUDENT</Link></ul>
             </li>
