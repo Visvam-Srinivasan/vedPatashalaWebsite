@@ -9,9 +9,8 @@ import AdminNavbar from "./components/users/admin/AdminNavbar";
 import AdminDashboard from "./components/users/admin/AdminDashboard";
 import AdminWrapper from "./components/users/admin/AdminWrapper";
 import AdminManageRoles from "./components/users/admin/AdminManageRoles";
-import AdminManageUsers from "./components/users/admin/AdminManageUsers";
+import AdminManageUsers from "./components/users/admin/manageUsers/AdminManageUsers";
 import AdminManageCourses from "./components/users/admin/AdminManageCourses";
-
 
 
 function App() {
